@@ -16,7 +16,7 @@ def dataset_limpo() -> DataFrame:
     """
     
     # Carrega o arquivo CSV usando ponto e vírgula como separador e vírgula como decimal
-    df = pd.read_csv("bancodados.csv", sep=";", decimal=",") # type: ignore
+    df = pd.read_csv("bancodados.csv", sep=";", decimal=",")
     
     # Remove a primeira linha do DataFrame, que contém dados irrelevantes
     df = df.drop(0, axis=0)
