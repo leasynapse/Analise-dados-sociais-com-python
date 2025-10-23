@@ -109,3 +109,5 @@ else:
     grafico_comparativo.warning("Por favor, selecione mais de um município para continuar.")
 
 
+redes_sociais = st.container(border=True)
+redes_sociais.image("logo.png")
